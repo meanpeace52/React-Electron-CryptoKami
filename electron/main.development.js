@@ -134,7 +134,8 @@ app.on('ready', async () => {
    * so that it can be used in HTTP and Websocket connections.
    */
   try {
-    const pathToCertificate = isProd ? caProductionPath : path.join(__dirname, '../tls/ca.crt');
+    // const pathToCertificate = isProd ? caProductionPath : path.join(__dirname, '../tls/ca.crt');
+    const pathToCertificate = path.join(__dirname, '../tls/ca.crt');
     Log.info('Using certificates from: ' + pathToCertificate);
     Object.assign(global, {
       ca: fs.readFileSync(pathToCertificate),

@@ -1,6 +1,6 @@
 export default (app, window, openAbout) => (
   [{
-    label: 'Daedalus',
+    label: 'CryptoKami',
     submenu: [{
       label: 'About',
       click() {
