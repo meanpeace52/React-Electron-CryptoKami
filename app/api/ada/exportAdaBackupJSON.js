@@ -11,7 +11,7 @@ export const exportAdaBackupJSON = (
   { ca, walletId, filePath }: ExportAdaBackupJSONParams,
 ): Promise<[]> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: `/api/backup/export/${walletId}`,
     port: 8090,

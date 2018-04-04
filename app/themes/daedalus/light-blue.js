@@ -261,7 +261,7 @@ export default {
   '--theme-report-issue-syncing-background-color': 'rgba(94, 96, 102, 0.05)',
   '--theme-report-issue-syncing-text-color': '#5e6066',
 
-  '--theme-connecting-background-color': '#1c3e65',
+  '--theme-connecting-background-color': '#009688',
   '--theme-connecting-text-color': '#fff',
 
   '--theme-syncing-background-color': '#009688',

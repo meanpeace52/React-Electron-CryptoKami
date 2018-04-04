@@ -9,7 +9,7 @@ export const nextAdaUpdate = (
   { ca }: NextAdaUpdateParams
 ): Promise<any> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'GET',
     path: '/api/update',
     port: 8090,

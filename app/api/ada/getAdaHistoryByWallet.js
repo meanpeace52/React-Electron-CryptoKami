@@ -13,7 +13,7 @@ export const getAdaHistoryByWallet = (
   { ca, walletId, skip, limit }: GetAdaHistoryByWalletParams
 ): Promise<AdaTransactions> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'GET',
     path: '/api/txs/histories',
     port: 8090,

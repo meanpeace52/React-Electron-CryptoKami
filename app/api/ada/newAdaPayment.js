@@ -18,7 +18,7 @@ export const newAdaPayment = (
   { ca, sender, receiver, amount, groupingPolicy, password }: NewAdaPaymentParams
 ): Promise<AdaTransaction> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: `/api/txs/payments/${sender}/${receiver}/${amount}`,
     port: 8090,

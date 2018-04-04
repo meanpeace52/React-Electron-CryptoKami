@@ -18,7 +18,7 @@ export const redeemAdaPaperVend = (
   { ca, walletPassword, redeemPaperVendedData }: RedeemAdaPaperVendParams
 ): Promise<AdaTransaction> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: '/api/papervend/redemptions/ada',
     port: 8090,

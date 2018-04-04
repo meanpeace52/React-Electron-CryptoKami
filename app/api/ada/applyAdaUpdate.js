@@ -9,7 +9,7 @@ export const applyAdaUpdate = (
   { ca }: ApplyAdaUpdateParams
 ): Promise<any> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: '/api/update/apply',
     port: 8090,

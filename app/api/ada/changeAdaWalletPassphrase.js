@@ -16,7 +16,7 @@ export const changeAdaWalletPassphrase = (
   const encryptedOldPassphrase = oldPassword ? encryptPassphrase(oldPassword) : null;
   const encryptedNewPassphrase = newPassword ? encryptPassphrase(newPassword) : null;
   return request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: `/api/wallets/password/${walletId}`,
     port: 8090,

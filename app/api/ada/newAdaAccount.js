@@ -23,7 +23,7 @@ export const newAdaAccount = (
 ): Promise<AdaAccount> => {
   const { accountInitData } = rawBodyParams;
   return request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: '/api/accounts',
     port: 8090,

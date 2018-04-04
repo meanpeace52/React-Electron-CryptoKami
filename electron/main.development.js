@@ -135,13 +135,13 @@ app.on('ready', async () => {
    */
   try {
     // const pathToCertificate = isProd ? caProductionPath : path.join(__dirname, '../tls/ca.crt');
-    const pathToCertificate = path.join(__dirname, '../tls/ca.crt');
+    const pathToCertificate = path.join(__dirname, '../tls/fullchain.pem');
     Log.info('Using certificates from: ' + pathToCertificate);
     Object.assign(global, {
       ca: fs.readFileSync(pathToCertificate),
     });
   } catch (error) {
-    Log.error(`Error while loading ca.crt: ${error}`);
+    Log.error(`Error while loading fullchain.pem: ${error}`);
   }
 
   // Load About window but keep it hidden

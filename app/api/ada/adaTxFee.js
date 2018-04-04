@@ -16,7 +16,7 @@ export const adaTxFee = (
 { ca, sender, receiver, amount, groupingPolicy }: AdaTxFeeParams
 ): Promise<AdaTransactionFee> => (
   request({
-    hostname: 'localhost',
+    hostname: 'gotest.cryptokami.com',
     method: 'POST',
     path: `/api/txs/fee/${sender}/${receiver}/${amount}`,
     port: 8090,
