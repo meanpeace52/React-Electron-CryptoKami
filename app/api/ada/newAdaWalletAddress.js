@@ -12,7 +12,7 @@ export const newAdaWalletAddress = (
   { ca, password, accountId }: NewAdaWalletAddressParams
 ): Promise<AdaAddress> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/addresses',
     port: 8090,

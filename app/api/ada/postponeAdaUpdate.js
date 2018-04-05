@@ -9,7 +9,7 @@ export const postponeAdaUpdate = (
   { ca }: PostponeAdaUpdateParams
   ): Promise<any> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/update/postpone',
     port: 8090,

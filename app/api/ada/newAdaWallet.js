@@ -12,7 +12,7 @@ export const newAdaWallet = (
   { ca, password, walletInitData }: NewAdaWalletParams
   ): Promise<AdaWallet> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/wallets/new',
     port: 8090,

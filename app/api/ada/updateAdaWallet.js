@@ -16,7 +16,7 @@ export const updateAdaWallet = (
   { ca, walletId, walletMeta }: UpdateAdaWalletParams
 ): Promise<AdaWallet> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'PUT',
     path: `/api/wallets/${walletId}`,
     port: 8090,

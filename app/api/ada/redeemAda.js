@@ -15,7 +15,7 @@ export const redeemAda = (
 { ca, walletPassword, walletRedeemData }: RedeemAdaParams
 ): Promise<AdaTransaction> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/redemptions/ada',
     port: 8090,

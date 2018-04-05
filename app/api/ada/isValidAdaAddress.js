@@ -11,7 +11,7 @@ export const isValidAdaAddress = (
 ): Promise<boolean> => {
   const encodedAddress = encodeURIComponent(address);
   return request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'GET',
     path: `/api/addresses/${encodedAddress}`,
     port: 8090,

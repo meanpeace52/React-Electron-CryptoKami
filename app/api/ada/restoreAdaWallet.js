@@ -12,7 +12,7 @@ export const restoreAdaWallet = (
   { ca, walletPassword, walletInitData }: RestoreAdaWalletParams
 ): Promise<AdaWallet> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/wallets/restore',
     port: 8090,

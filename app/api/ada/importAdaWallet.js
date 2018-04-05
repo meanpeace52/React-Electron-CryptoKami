@@ -12,7 +12,7 @@ export const importAdaWallet = (
   { ca, walletPassword, filePath }: ImportAdaWalletParams
 ): Promise<AdaWallet> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/wallets/keys',
     port: 8090,

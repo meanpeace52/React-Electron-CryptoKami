@@ -10,7 +10,7 @@ export const getAdaLocalTimeDifference = (
   { ca }: GetAdaLocalTimeDifferenceParams
 ): Promise<AdaLocalTimeDifference> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'GET',
     path: '/api/settings/time/difference',
     port: 8090,

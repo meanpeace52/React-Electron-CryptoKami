@@ -9,7 +9,7 @@ export const adaTestReset = (
   { ca }: AdaTestResetParams
 ): Promise<void> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'POST',
     path: '/api/test/reset',
     port: 8090,

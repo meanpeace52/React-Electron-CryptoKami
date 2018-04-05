@@ -10,7 +10,7 @@ export const getAdaSyncProgress = (
   { ca }: GetAdaSyncProgressParams
 ): Promise<AdaSyncProgressResponse> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'GET',
     path: '/api/settings/sync/progress',
     port: 8090,

@@ -12,7 +12,7 @@ export const getAdaWalletAccounts = (
   { ca, walletId }: GetAdaWalletAccountsParams
 ): Promise<AdaAccounts> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'GET',
     path: '/api/accounts',
     port: 8090,

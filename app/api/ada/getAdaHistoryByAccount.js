@@ -13,7 +13,7 @@ export const getAdaHistoryByAccount = (
   { ca, accountId, skip, limit }: GetAdaHistoryByAccountParams
 ): Promise<AdaTransactions> => (
   request({
-    hostname: 'gotest.cryptokami.com',
+    hostname: 'localhost',
     method: 'GET',
     path: '/api/txs/histories',
     port: 8090,

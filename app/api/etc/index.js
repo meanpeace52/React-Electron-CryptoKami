@@ -63,7 +63,7 @@ import type {
 const ca = remote.getGlobal('ca');
 
 // export const ETC_API_HOST = 'ec2-52-30-28-57.eu-west-1.compute.amazonaws.com';
-export const ETC_API_HOST = 'gotest.cryptokami.com';
+export const ETC_API_HOST = 'localhost';
 export const ETC_API_PORT = 8546;
 
 // ETC specific Request / Response params
