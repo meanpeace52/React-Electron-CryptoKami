@@ -95,7 +95,7 @@
     "minimist": "1.2.0",
     "mobx-react-devtools": "4.2.11",
     "node-libs-browser": "1.1.1",
-    "node-sass": "3.13.1",
+    "node-sass": "7.0.0",
     "nodemon": "1.11.0",
     "postcss": "5.2.16",
     "postcss-modules": "0.5.2",
